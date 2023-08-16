@@ -1,0 +1,1341 @@
+/* bootstrap属性 */
+.container {
+	width: 1180px;
+}
+
+.container-fluid {
+	margin-right: 60px;
+	margin-left: 50px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3,
+	.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
+	.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+	.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
+	.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3,
+	.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+	.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3,
+	.col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left: 10px;
+}
+
+/* テーブル関連 */
+.table {
+	margin-bottom: 0px;
+}
+
+td {
+	padding: 1 0 1 1 !important;
+	margin: 1 !important;
+}
+
+label {
+	font-weight: normal;
+}
+
+table tbody tr td.cs-border-top-none {
+	border-top-style: none;
+}
+
+table tbody tr td.cs-border-bottom-none {
+	border-bottom-style: none;
+}
+
+table tbody tr td.cs-border-left-none {
+	border-left-style: none;
+}
+
+table tbody tr td.cs-border-right-none {
+	border-right-style: none;
+}
+
+#cs-record-table.cs-border-left-none {
+	border-left-style: none;
+}
+
+#cs-record-table.cs-border-bottom-none {
+	border-bottom-style: none;
+}
+
+.cs-scroll-low-3 {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	overflow-x: auto;
+	table-layout: fixed;
+	height: 180px;
+	width: 100%;
+}
+
+.cs-scroll-low-5 {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	overflow-x: auto;
+	table-layout: fixed;
+	height: 245px;
+}
+
+.cs-scroll-low-10 {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	overflow-x: auto;
+	table-layout: fixed;
+	height: 405px;
+}
+
+.cs-scroll-low-15 {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	overflow-x: auto;
+	table-layout: fixed;
+	height: 575px;
+}
+
+.cs-scroll-low-20 {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	overflow-x: auto;
+	table-layout: fixed;
+	height: 735px;
+}
+
+.cs-scroll-low-3 th, .cs-scroll-low-5 th, .cs-scroll-low-10 th,
+	.cs-scroll-low-15 th, .cs-scroll-low-20 th, .cs-scroll-low-3 td,
+	.cs-scroll-low-5 td, .cs-scroll-low-10 td, .cs-scroll-low-15 td,
+	.cs-scroll-low-20 td {
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.cs-scroll-low-3 select, .cs-scroll-low-5 select, .cs-scroll-low-10 select,
+	.cs-scroll-low-15 select, .cs-scroll-low-20 select {
+	width: 40px;
+}
+
+.cs-scroll-low-3 koban, .cs-scroll-low-5 koban, .cs-scroll-low-10 koban,
+	.cs-scroll-low-15 koban, .cs-scroll-low-20 koban {
+	width: 50px;
+}
+
+.cs-scroll-low-3 action, .cs-scroll-low-5 action, .cs-scroll-low-10 action,
+	.cs-scroll-low-15 action, .cs-scroll-low-20 action {
+	width: 40px;
+}
+
+/* ボディ関連 */
+body {
+	margin: 0;
+	font-family: 'MS PGothic', Osaka, arial, helvetica, sans-serif;
+	font-size: 12px;
+	overflow-x: hidden;
+}
+
+/* パネル関連 */
+.panel {
+	/* 	border-bottom: 1px solid #337ab7; */
+	/* 	margin-bottom: 0px; */
+	
+}
+
+.cs-panel-tab {
+	margin-top: -5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.cs-panel-noborder {
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
+
+.cs-panel-border {
+	border-bottom: 1px solid #ddd;
+}
+
+.panel-title {
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.panel-heading {
+	height: 30px;
+}
+
+:last-child.list-group-item {
+	border-bottom-color: #337ab7;
+}
+
+.list-group {
+	background-color: #337ab7;
+	color: #ffffff;
+}
+
+.cs-panel-work-flow {
+	height: auto;
+}
+
+.cs-panel-rich {
+	margin-top: -8px;
+}
+
+/* リスト関連 */
+.list-group-item {
+	padding: 10px 5px;
+}
+
+/* メニュー関連 */
+.treeview span.icon {
+	margin-right: 0px;
+}
+
+/* ヘッダ関連 */
+.cs-login-user {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+/* ページトップ */
+#cs-page-top {
+	position: fixed;
+	bottom: 50%;
+	right: 20px;
+	font-size: 100%;
+}
+
+#cs-page-top a {
+	background-image: linear-gradient(to bottom, #000000 0, #777777 100%);
+	text-decoration: none;
+	color: #fff;
+	width: 20px;
+	padding: 20px 0;
+	text-align: center;
+	display: block;
+	border-radius: 100px;
+}
+
+#cs-page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}
+
+#cs-page-down {
+	position: fixed;
+	top: 50%;
+	right: 20px;
+	font-size: 100%;
+}
+
+#cs-page-down a {
+	background-image: linear-gradient(to bottom, #777777 0, #000000 100%);
+	text-decoration: none;
+	color: #fff;
+	width: 20px;
+	padding: 20px 0;
+	text-align: center;
+	display: block;
+	border-radius: 100px;
+}
+
+#cs-page-down a:hover {
+	text-decoration: none;
+	background: #999;
+}
+
+/* 画像関連 */
+.cs-resize-auto {
+	max-width: 20%;
+	max-height: 20%;
+	-ms-interpolation-mode: bicubic;
+}
+
+.cs-image-auto {
+	margin: 15px;
+	float: none;
+	vertical-align: middle;
+}
+
+.cs-resize-manual {
+	width: 50px;
+	height: 50px:
+}
+
+/* フォント関連 */
+.cs-font-size-8 {
+	font-size: 8px;
+}
+
+.cs-font-size-9 {
+	font-size: 9px;
+}
+
+.cs-font-size-10 {
+	font-size: 10px;
+}
+
+.cs-font-size-11 {
+	font-size: 11px;
+}
+
+.cs-font-size-12 {
+	font-size: 12px;
+}
+
+.cs-font-size-13 {
+	font-size: 13px;
+}
+
+.cs-font-size-14 {
+	font-size: 14px;
+}
+
+.cs-font-size-15 {
+	font-size: 15px;
+}
+
+.cs-font-size-16 {
+	font-size: 16px;
+}
+
+.cs-font-size-18 {
+	font-size: 18px;
+}
+
+.cs-font-size-20 {
+	font-size: 20px;
+}
+
+.cs-font-size-22 {
+	font-size: 22px;
+}
+
+.cs-font-size-24 {
+	font-size: 24px;
+}
+
+.cs-font-size-26 {
+	font-size: 26px;
+}
+
+.cs-font-size-48 {
+	font-size: 48px;
+}
+
+.cs-color-fukuya {
+	color: #007344;
+}
+
+/*************************************/
+/* テーブル関連                                                           */
+/*************************************/
+/* テーブルページングボタン */
+.cs-paging-button {
+	width: 160px;
+	vertical-align: middle;
+}
+
+table tr td.cs-border-none {
+	border: none;
+}
+
+table tr th.cs-border-none {
+	border: none;
+}
+
+table tr td.cs-table-unit-title {
+	width: 35px;
+	vertical-align: middle;
+}
+
+table tr td.cs-table-unit {
+	width: ６0px;
+	vertical-align: middle;
+}
+
+table tr td.cs-get-count-title {
+	width: 35px;
+	vertical-align: middle;
+}
+
+table tr td.cs-get-count {
+	width: 40px;
+	vertical-align: middle;
+}
+
+table tr td.cs-get-count-unit {
+	width: 30px;
+	vertical-align: middle;
+}
+
+table tr td.cs-count-now {
+	width: 40px;
+	vertical-align: middle;
+}
+
+table tr td.cs-count-dash {
+	width: 10px;
+	vertical-align: middle;
+}
+
+table tr td.cs-count-max {
+	width: 40px;
+	vertical-align: middle;
+}
+
+table tr td.cs-count-unit {
+	width: 30px;
+	vertical-align: middle;
+}
+
+table tr td.cs-page-start {
+	width: 5px;
+	vertical-align: middle;
+}
+
+table tr td.cs-page-now {
+	width: 30px;
+	vertical-align: middle;
+}
+
+table tr td.cs-page-slash {
+	width: 10px;
+	vertical-align: middle;
+}
+
+table tr td.cs-page-max {
+	width: 30px;
+	vertical-align: middle;
+}
+
+table tr td.cs-page-unit {
+	width: 50px;
+	vertical-align: middle;
+}
+
+table tr td.cs-row-add {
+	width: 100px;
+	vertical-align: middle;
+}
+
+.cs-table-title {
+	border: none;
+	vertical-align: middle;
+	padding-left: 5px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+	.table>thead>tr>td, .table>thead>tr>th {
+	border-top-style: none;
+	border-bottom: 1px solid #ddd;
+	vertical-align: middle;
+}
+
+/* テーブル（選択チェックボックス列）   */
+.cs-checkbox {
+	width: 35px;
+}
+/* テーブル（No.列） */
+.cs-no {
+	width: 40px;
+}
+/* テーブル（詳細ボタン列） */
+.cs-detail {
+	width: 50px;
+}
+/* 斜線（右上がり） */
+.cs-slash-left {
+	background-image: linear-gradient(to top left, transparent, transparent 50%, grey 49%,
+		grey 51%, transparent 50%, transparent);
+}
+/* 斜線（右上がり大） */
+.cs-slash-left-big {
+	/* 	background-image: linear-gradient(to top left,transparent 49%, black 49%, black 50%, transparent 49%); */
+	background-image: linear-gradient(to top left, transparent, transparent 50%, grey 50%,
+		grey 50.3%, transparent 50.3%, transparent);
+}
+/* 斜線（右下がり） */
+.cs-slash-right {
+	background-image: linear-gradient(to top right, transparent, transparent 50%, grey 45%,
+		grey 51%, transparent 50%, transparent);
+}
+/* 斜線（右下がり大） */
+.cs-slash-right-big {
+	/* 	background-image: linear-gradient(to top right,transparent 49%, black 49%, black 50%, transparent 49%); */
+	background-image: linear-gradient(to top right, transparent, transparent 50%, grey 49%,
+		grey 50.3%, transparent 50%, transparent);
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+	.table>thead>tr>td, .table>thead>tr>th {
+	padding: 1px;
+}
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th,
+	.table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th,
+	.table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+	padding: 1px;
+	height: 25px;
+}
+
+.input-sm {
+	height: 25px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+	padding-bottom: 3px;
+	padding-top: 2px;
+}
+
+/* .input-group-addon { */
+/* 	font-size: 12px; */
+/* 	padding-top: 1px; */
+/* 	padding-bottom: 1px; */
+/* 	text-shadow: none; */
+/* 	background-image: -webkit-linear-gradient(top, #000000 0, #777777 100%); */
+/* 	background-image: -o-linear-gradient(top, #000000 0, #777777 100%); */
+/* 	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), */
+/* 		to(#777777)), to(#777777)); */
+/* 	background-image: linear-gradient(to bottom, #000000 0, #777777 100%); */
+/* 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', */
+/* 		endColorstr='#ffe0e0e0', GradientType=0); */
+/* 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
+/* 	background-repeat: repeat-x; */
+/* 	border-color: #000000; */
+/* 	color: #ffffff; */
+/* 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px */
+/* 		rgba(0, 0, 0, .075); */
+/* 	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.15), 0px 1px 1px */
+/* 		rgba(0, 0, 0, 0.075); */
+/* } */
+
+/* .input-group-addon:focus, .input-group-addon:hover { */
+/* 	background-color: #777777; */
+/* 	background-position: 0 -15px; */
+/* } */
+
+/* .input-group-addon:hover { */
+/* 	color: #ffffff; */
+/* 	background-color: #777777; */
+/* 	border-color: #000000; */
+/* } */
+.input-group-addon {
+	text-shadow: 0px 1px 0px #fff;
+	background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+	background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff),
+		to(#e0e0e0));
+	background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',
+		endColorstr='#ffe0e0e0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #dbdbdb;
+	border-color: #ccc;
+	padding-top: 1px;
+	font-size: 12px;
+	padding-bottom: 1px;
+}
+
+.input-group-addon:focus, .input-group-addon:hover {
+	background-color: #e0e0e0;
+	background-position: 0 -15px;
+}
+
+.input-group-addon:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+.bg-danger {
+	background-color: #f2dede;
+}
+
+.bg-warning {
+	background-color: #fcf8e3;
+}
+
+.form-control {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 6px;
+	font-size: 12px;
+	height: 25px;
+	font-size: 12px;
+}
+
+label {
+	margin-bottom: 0px;
+}
+
+input[type=checkbox], input[type=radio] {
+	margin-top: 2px;
+}
+
+.panel-footer {
+	background-color: #337ab7;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.cs-btn-black {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+	background-image: -webkit-linear-gradient(top, #000000 0, #777777 100%);
+	background-image: -o-linear-gradient(top, #000000 0, #777777 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000),
+		to(#777777)), to(#777777));
+	background-image: linear-gradient(to bottom, #000000 0, #777777 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',
+		endColorstr='#ffe0e0e0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #000000;
+	color: #ffffff;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px
+		rgba(0, 0, 0, .075);
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.15), 0px 1px 1px
+		rgba(0, 0, 0, 0.075);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px
+		rgba(0, 0, 0, .075);
+}
+
+.cs-btn-black:focus, .cs-btn-black:hover {
+	background-color: #777777;
+	background-position: 0 -15px;
+}
+
+.cs-btn-black:hover {
+	color: #ffffff;
+	background-color: #777777;
+	border-color: #000000;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+	{
+	border: 1px solid #337ab7;
+	border-top-color: #337ab7;
+	border-bottom-color: #337ab7;
+	background-color: #337ab7;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #337ab7;
+}
+
+.cs-header {
+	z-index: 99;
+	background-color: #ffffff;
+	top: 0;
+	width: 100%;
+	margin-right: 60px;
+	position: fixed;
+}
+
+.cs-header-error {
+	background-color: #ffffff;
+	top: 0;
+	width: 100%;
+}
+
+.cs-work {
+	margin-top: 65px;
+}
+
+.page-header {
+	margin-top: 10px;
+}
+
+.cs-menu-title {
+	font-size: 22px;
+}
+
+.cs-footer {
+	margin-bottom: 0px;
+}
+
+.cs-display-none {
+	display: none;
+}
+
+.cs-width-zero {
+	padinng: 0px;
+	width: 0px;
+}
+
+.cs-drop-menu {
+	top: auto;
+	left: auto;
+	font-size: 12px;
+	margin-left: 160px;
+}
+
+.cs-filter {
+	width: 25px;
+}
+
+.cs-height-percent-100 {
+	height: 100%;
+}
+
+textarea.form-control {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 6px;
+	height: 55px;
+}
+
+.cs-thumbnail {
+	width: 100px;
+	height: 100px;
+}
+
+.cs-thumbnail-large {
+	width: 150px;
+	height: 150px;
+}
+
+.cs-thumbnail-view {
+	width: 100%;
+	height: 300px;
+}
+
+.cs-tab-inner-panel {
+	border-top-style: none;
+	border-top-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.cs-modal-size-large {
+	width: 900px;
+}
+
+/* カルーセル関連*/
+.cs-carousel-style {
+	height: 205px;
+}
+
+.cs-carousel-control {
+	width: 3%;
+}
+
+.cs-margin-auto {
+	margin: auto;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive,
+	.thumbnail a>img, .thumbnail>img {
+	display: inline-block;
+}
+
+.cs-carousel-table .cs-carousel-caption {
+	vertical-align: middle;
+}
+
+.cs-carousel-table .cs-carousel-content {
+	height: 175px;
+	width: 175px;
+}
+
+.cs-carousel-table .cs-carousel-content .cs-carousel-img {
+	width: 100%;
+	height: 100%;
+}
+
+.cs-carousel-table {
+	height: 200px;
+}
+
+.carousel-indicators .active {
+	background-color: #337ab7;
+}
+
+.carousel-indicators li {
+	border: 1px solid #337ab7
+}
+
+.cs-carousel-indicators {
+	bottom: 5px;
+}
+
+#cs-nowloading {
+	width: 96px; /* gif画像の幅 */
+	height: 96px; /* gif画像の高さ */
+	margin: -68px 0 0 -68px; /* gif画像を画面中央に */
+	padding: 20px; /* gif画像を大きく */
+	/*background: #BABABA;*/ /* gif画像の背景色 */
+	opacity: 0.5; /* 透過させる */
+	border-radius: 15px; /* 丸角 */
+	position: fixed; /* gif画像をスクロールさせない */
+	left: 50%; /* gif画像を画面横中央へ */
+	top: 50%; /* gif画像を画面縦中央へ */
+}
+
+#cs-panelA {
+	height: 600px;
+	width: 200px;
+	padding: 20px;
+	background: #eee;
+	float: left;
+	display: none;
+	color: #666;
+	font-size: xx-large;
+	margin-left: -100px;
+	z-index: 10;
+}
+
+.cs-openA {
+	height: 20px;
+	width: 70px;
+	background: #666;
+	padding: 20px;
+	float: left;
+	margin-top: 200px;
+	color: #fff;
+}
+
+/* モーダルウィンドウ表示用 */
+/*オーバーレイ要素のスタイル*/
+#cs-modal-Overlay {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background: #000;
+	display: none;
+}
+
+/* カルーセル用モーダルウィンドウ. */
+#cs-carousel-mdWindow {
+	margin-top: -300px;
+	margin-left: -450px;
+	top: 50%;
+	left: 50%;
+	width: 900px;
+	height: 600px;
+	position: fixed;
+	z-index: 200;
+	background: #fff;
+	display: none;
+}
+/* カルーセル用モーダルウィンドウのクローズボタン */
+#cs-carousel-mdWindow>.cs-carousel-mdClose {
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size: 1.5em;
+	background: #757575;
+	border-radius: 30px;
+	box-shadow: 0 0 3px 0 #000;
+	position: absolute;
+	z-index: 300;
+	cursor: pointer;
+}
+/* カルーセル用モーダルウィンドウの表示領域 */
+#cs-carousel-contWrap {
+	margin: 30px auto;
+	padding: 0 20px;
+	width: 100%;
+	height: 540px;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+/* カルーセル用モーダルウィンドウに表示するタイトル */
+#cs-carousel-contWrap h2 {
+	margin-bottom: 20px;
+	padding: 20px 0;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: #333 1px dotted;
+}
+
+.bootstrap-datetimepicker-widget {
+/* 	z-index: 9999999; */
+}
+
+/* 一覧最新スタイル(2016/05/15) */
+#cs-scroll {
+	max-width: 100%;
+	width: 100%;
+}
+
+#cs-title-table {
+	width: calc(100% - 16px);
+}
+
+#cs-header-table {
+	width: calc(100% - 16px);
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+}
+
+#cs-header-table-left {
+	width: 12.5%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+	border-right-style: double;
+	border-right-color: #ddd;
+	float: left;
+}
+
+#cs-header-table-right {
+	width: calc(100% - 12.5% - 16px);
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+	float: left;
+}
+
+.cs-header-table-right {
+	width: 120%;
+}
+
+#cs-record-table {
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ddd;
+	border-bottom-width: 1px;
+}
+
+#cs-record-table-left {
+	width: 12.5%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-right-style: double;
+	border-right-color: #ddd;
+	float: left;
+}
+
+#cs-record-table-right {
+	width: calc(100% - 12.5%);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	float: left;
+}
+
+.cs-record-table-right {
+	width: 120%;
+}
+
+#cs-footer-table {
+	width: calc(100% - 16px);
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-top-style: double;
+	border-top-color: #ddd;
+}
+
+#cs-footer-table-left {
+	width: 12.5%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-right-style: double;
+	border-right-color: #ddd;
+	border-top-style: double;
+	border-top-color: #ddd;
+	float: left;
+}
+
+#cs-footer-table-right {
+	width: calc(100% - 12.5% - 16px);
+	overflow-y: hidden;
+	overflow-x: scroll;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	border-top-style: double;
+	border-top-color: #ddd;
+	float: left;
+}
+
+.cs-footer-table-right {
+	width: 120%;
+}
+
+.cs-width-auto {
+	width: 100%;
+}
+
+.cs-width-max {
+	width: 100%;
+	max-width: 100%;
+}
+
+.cs-word-break-all {
+	word-break: break-all;
+}
+
+.cs-table-caret {
+	width: 15px;
+}
+
+/* 一覧最新スタイル(2016/05/18) */
+#cs-header-table-left-md {
+	width: 25%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+	border-right-style: double;
+	border-right-color: #ddd;
+	float: left;
+}
+
+#cs-header-table-right-md {
+	width: calc(100% - 25% - 16px);
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+	float: left;
+}
+
+.cs-header-table-right-md {
+	width: 120%;
+}
+
+#cs-record-table-left-md {
+	width: 25%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-right-style: double;
+	border-right-color: #ddd;
+	float: left;
+}
+
+#cs-record-table-right-md {
+	width: calc(100% - 25%);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	float: left;
+}
+
+.cs-record-table-right-md {
+	width: 120%;
+}
+
+#cs-footer-table-left-md {
+	width: 25%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-right-style: double;
+	border-right-color: #ddd;
+	border-top-style: double;
+	border-top-color: #ddd;
+	float: left;
+}
+
+#cs-footer-table-right-md {
+	width: calc(100% - 25% - 16px);
+	overflow-y: hidden;
+	overflow-x: scroll;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	border-top-style: double;
+	border-top-color: #ddd;
+	float: left;
+}
+
+.cs-footer-table-right-md {
+	width: 120%;
+}
+
+#cs-header-table-left-lg {
+	width: 50%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+	border-right-style: double;
+	border-right-color: #ddd;
+	float: left;
+}
+
+#cs-header-table-right-lg {
+	width: calc(100% - 50% - 16px);
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #ddd;
+	float: left;
+}
+
+.cs-header-table-right-lg {
+	width: 120%;
+}
+
+#cs-record-table-left-lg {
+	width: 50%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-right-style: double;
+	border-right-color: #ddd;
+	float: left;
+}
+
+#cs-record-table-right-lg {
+	width: calc(100% - 50%);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	float: left;
+}
+
+.cs-record-table-right-lg {
+	width: 120%;
+}
+
+#cs-footer-table-left-lg {
+	width: 50%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-left-width: 1px;
+	border-right-style: double;
+	border-right-color: #ddd;
+	border-top-style: double;
+	border-top-color: #ddd;
+	float: left;
+}
+
+#cs-footer-table-right-lg {
+	width: calc(100% - 50% - 16px);
+	overflow-y: hidden;
+	overflow-x: scroll;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	border-right-width: 1px;
+	border-top-style: double;
+	border-top-color: #ddd;
+	float: left;
+}
+
+.cs-footer-table-right-lg {
+	width: 120%;
+}
+
+/*************************************/
+/* リンク */
+/*************************************/
+a {
+	text-decoration: underline;
+}
+
+/*************************************/
+/* お気に入り名称テキストボックス */
+/*************************************/
+#cs-fav-text {
+	width: 200px;
+}
+
+.cs-fav-margin {
+	margin-top: -3px;
+}
+
+/* ボタン幅 */
+.cs-button-xxs {
+	width: 15px;
+}
+
+.cs-button-sm {
+	width: 60px;
+}
+
+.cs-button-md {
+	width: 100px;
+}
+
+.cs-button-lg {
+	width: 200px;
+}
+
+/* 和暦 */
+.cs-year {
+	width: 130px;
+}
+
+.cs-month {
+	width: 60px;
+}
+
+.cs-date {
+	width: 60px;
+}
+
+/* ラベル */
+.cs-label-padding {
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+/*************************************/
+/*タブボタン */
+/*************************************/
+.cs-tab-button {
+	font-size: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	background-image: none;
+	border-color: #337ab7;
+	margin-left: -1px;
+	margin-right: 1px;
+}
+
+/*************************************/
+/*グリッドシステム停止 */
+/*************************************/
+.cs-gridsystem-none {
+	max-width: none !important;
+}
+
+/*************************************/
+/*ウィンドウ幅 */
+/*************************************/
+.cs-widndow-width-lg {
+	width: 900px;
+}
+
+.cs-widndow-width-md {
+	width: 750px;
+}
+
+.cs-widndow-width-sm {
+	width: 600px;
+}
+
+.cs-widndow-width-xs {
+	width: 450px;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+	/* 	border-top-width: 1px; */
+	/* 	border-right-width: 1px; */
+	/* 	border-top-style: solid; */
+	/* 	border-right-style: solid; */
+	/* 	border-top-color: #337ab7; */
+	/* 	border-right-color: #337ab7; */
+	border: 1px solid #337ab7;
+	text-decoration: none;
+}
+
+.cs-text-count {
+	width: 50px;
+}
+
+.cs-required {
+	color: #eb9316;
+}
+
+.cs-margin-top-25 {
+	margin-top: 25px;
+}
+
+.cs-margin-bottom-25 {
+	margin-bottom: 25px;
+}
+
+.cs-margin-bottom-200 {
+	margin-bottom: 75px;
+}
+
+.cs-thumbnail {
+	width: 100px;
+	height: 100px;
+}
+
+.cs-thumbnail-large {
+	width: 150px;
+	height: 150px;
+}
+
+.cs-thumbnail-view {
+	width: 100%;
+	height: 300px;
+}
+
+.select2-container--default>.bg-danger .select2-selection--single>.bg-danger
+	{
+	background-color: #f2dede;
+}
+
+.btn-danger {
+	text-shadow: none;
+}
+
+.btn-warning {
+	text-shadow: none;
+}

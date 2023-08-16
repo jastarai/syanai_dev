@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>社員検索</title>
+<link rel="stylesheet" href="../../css/traning_pg1.css" />
+</head>
+<body>
+	<form id="mainForm" method="post" th:object="${mainForm}" th:action="@{/traning/traning_pg1/search001}">
+		<div class="window">
+			<div class="margin-vertical-h">
+				<h3>社員検索</h3>
+				<table class="table-search margin-horizontal">
+					<tr>
+						<td class="title text-right">社員番号：</td>
+						<td>
+							<input type="text" class="search-input" th:field="*{empno}" />
+						</td>
+					</tr>
+					<tr>
+						<td class="text-right" colspan="2">
+							<button type="submit" class="button-search">検索</button>
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="title">
+							<label>社員一覧 </label>
+						</td>
+					</tr>
+				</table>
+				<table class="table-head">
+					<tr>
+						<td id="" class="text-center table-colum bg-blue">社員番号</td>
+						<td id="" class="text-center table-colum bg-blue">社員名</td>
+					</tr>
+				</table>
+				<div class="table-scroll">
+					<table class="table-record">
+						<tr th:each="empList,empStat : *{listRow}">
+							<td class="text-left table-colum bg-white height-25" th:text="${empList.empno}"></td>
+							<td class="text-left table-colum bg-white height-25" th:text="${empList.ename}"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

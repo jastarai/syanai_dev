@@ -1,0 +1,41 @@
+.table-condensed {
+	width: 715px;
+}
+
+.cs-sub-div {
+	margin: 0 auto; 
+	width: 80%;
+}
+
+.cs-fav-width-30 {
+	width: 30px;
+}
+.cs-fav-width-85 {
+	width: 85px;
+}
+.cs-fav-width-100{
+	width: 100px;
+}
+.cs-fav-width-300 {
+	width: 300px;
+}
+.cs-fav-width-385 {
+	width: 385px;
+}
+
+.cs-fav-height-50 {
+	height: 50px;
+}
+.cs-fav-height-425 {
+	height: 425px;
+}
+
+.cs-fav-va-top{
+	vertical-align: top;
+}
+.cs-fav-va-bottom {
+	vertical-align: bottom;
+}
+.cs-fav-va-middle {
+	vertical-align: middle;
+}

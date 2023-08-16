@@ -1,0 +1,45 @@
+.cs-vertical {
+	margin: 0 0px;
+	width: 100%;
+	overflow-x:hidden;
+}
+.cs-vertical tr {
+	display:block;
+/*	margin-top: 10px;	*/
+	width: 100%;
+	border-top: 0px;
+}
+.cs-vertical th {
+	display:block;
+	width: 100%;
+	border-bottom: 0px solid #ddd;
+}
+.cs-vertical td {
+	display: list-item;
+	width: 100%;
+	margin-left: 0%;
+	border:none;
+}
+
+.cs-header {
+margin-top:50px;
+}
+
+.cs-login-User {
+vertical-align:middle;
+}
+
+.cs-user {
+vertical-align:middle;
+width:100px;
+}
+
+td {
+vertical-align:middle;
+}
+
+th {
+vertical-align:middle;
+}
+
+

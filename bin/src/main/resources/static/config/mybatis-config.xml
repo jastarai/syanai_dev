@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- PreparedStatement再利用モードの利用 -->
+        <setting name="defaultExecutorType" value="REUSE"/>
+
+        <!-- アンダースコア区切り (スネークケース) のカラム名をキャメルケースにマップする設定 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+
+        <!-- SQL 内で AS によって設定された列名をマップする設定 -->
+        <setting name="useColumnLabel" value="true"/>
+    </settings>
+    <!-- エンティティクラスのパッケージを指定-->
+    <typeAliases>
+      <package name="jp.co.fukuya_k.db.generator" />
+    </typeAliases>
+<!--
+    <mappers>
+      <package name="jp.co.fukuya_k.db.generator"/>
+    </mappers>
+-->
+    <!-- マッパインターフェースのパッケージを指定 -->
+    <!-- タイプハンドラーパッケージを指定
+    <typeHandlers>
+      <package name="jp.co.fukuya_k.db.generator.datatypes" />
+    </typeHandlers>
+    -->
+</configuration>

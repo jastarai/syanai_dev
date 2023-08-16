@@ -1,0 +1,25 @@
+.table-condensed {
+	width: 715px;
+}
+
+.cs-table-left {
+	width: 200px;
+}
+.cs-table-right {
+	width: 515px;
+}
+
+.cs-scroll-over {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.cs-sub-div {
+	margin: 0 auto; 
+	width: 80%;
+}
+
+
+.cs-fav-td-tytle {
+	vertical-align: middle;
+}

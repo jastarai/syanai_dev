@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: m.arai
+Build-Jdk: 11.0.2
+Implementation-Title: framework
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: jp.co.jast
+Implementation-Vendor: Pivotal Software, Inc.
+Created-By: Maven Integration for Eclipse
+

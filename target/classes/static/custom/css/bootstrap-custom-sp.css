@@ -1,0 +1,105 @@
+ul li
+{
+position:relative;
+}
+
+ul li input
+{
+position:absolute;
+top:0;
+left:0;
+opacity:0;
+}
+
+ul li label
+{
+display:block;
+padding:7px;
+border:1px solid #cccccc;
+background-image:linear-gradient(to bottom, #000000 0, #777777 100%);
+text-align:left;
+text-shadow:1 1px 1 #ffffff;
+color:#ffffff;
+box-shadow:0 1px 1px rgba(0,0,0,0.15);
+}
+
+ul li + li label
+{
+border-left-width:1px;
+border-radius:5px;
+}
+
+ul li:first-child label
+{
+border-radius:5px;
+}
+
+ul li:last-child label
+{
+border-radius:5px;
+}
+
+ul li input:checked + label
+{
+border-radius:5px;
+background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+text-shadow:1 1px 1 #000000;
+color:#000000;
+}
+
+.cs-check ul {
+	margin-left: -40px;
+}
+
+label {
+font-weight: normal;
+}
+
+td {
+vertical-align:middle;
+}
+
+.cs-header {
+margin-top:50px;
+}
+
+.cs-login-User {
+vertical-align:middle;
+}
+
+.cs-user {
+vertical-align:middle;
+width:100px;
+}
+
+.cs-btn-black {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+	background-image: -webkit-linear-gradient(top, #000000 0, #777777 100%);
+	background-image: -o-linear-gradient(top, #000000 0, #777777 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000),
+		to(#777777)), to(#777777));
+	background-image: linear-gradient(to bottom, #000000 0, #777777 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',
+		endColorstr='#ffe0e0e0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #000000;
+	color: #ffffff;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px
+		rgba(0, 0, 0, .075);
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.15), 0px 1px 1px
+		rgba(0, 0, 0, 0.075);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px
+		rgba(0, 0, 0, .075);
+}
+
+.cs-btn-black:focus, .cs-btn-black:hover {
+	background-color: #777777;
+	background-position: 0 -15px;
+}
+
+.cs-btn-black:hover {
+	color: #ffffff;
+	background-color: #777777;
+	border-color: #000000;
+}

@@ -1,0 +1,50 @@
+#confirmOverlay{
+	opacity:0.0
+}
+
+#confirmBox{
+	border-radius:4px;
+	background:none;
+	background-color: #f5e79e;
+	z-index:100001
+}
+
+#confirmBox h1,
+#confirmBox p{
+	background:none;
+	background-color: #f5e79e
+}
+
+#confirmBox h1{
+	background-color: #f5e79e
+}
+
+#confirmBox p{
+	background-color: #ffffff
+}
+
+#confirmButtons{
+	background-color: #f5e79e;
+}
+
+#confirmBox .btn{
+	display:inline-block;
+	color:white;
+	position:relative;
+	height: 33px;
+	font:17px/33px 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	margin-right: 15px;
+	padding: 0 35px 0 40px;
+	text-decoration:none;
+	border:none;
+}
+
+#confirmBox .btn:last-child{	margin-right:0;}
+
+#confirmBox .btn span{
+	position:absolute;
+	top:0;
+	right:-5px;
+	width:5px;
+	height:33px
+}
